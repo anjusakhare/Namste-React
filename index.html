@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="styleSheet" href="./Index.css"/>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-------------- ***write simple html -->
+    <!-- <div class="root"> 
+        <h1> hello world html</h1>
+    </div> -->
+
+    <!-- -------***write  html code in javascript -->
+    <!-- <div id="root"></div>
+<script>
+    const js = document.createElement("h1")
+    js.innerHTML="hii javasript"
+    const root=document.getElementById("root")
+    root.appendChild(js)
+    console.log(js)
+</script> -->
+
+    <!-- -------***write  html code in react-->
+    <div> i am a top code</div>
+    <div id="root"> render replcing me </div>
+    <div> i am a below code</div>
+  <!-- -------write  html CDN link use for pull react in our project 
+    1 link)core react into project / 2 link)React DOM menipulate----->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<!-- <script>
+    const heading =React.createElement("h1" ,{ id:"nameid"} ,"hello world from React")
+const root= ReactDOM.createRoot(document.getElementById("root"))
+root.render(heading)
+</script> -->
+
+
+<script src="App.js"></script>
+
+</body>
+
+</html>
